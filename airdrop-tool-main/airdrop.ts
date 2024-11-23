@@ -49,7 +49,7 @@ async function airdropTokens(listRecipients: recipient[]){
   
     const airdropOutput = new TokenSendRequest({
       cashaddr: destinationAddress,
-      value: 1000,
+      value: 1000000,
       tokenId: tokenIdFungible as string,
       amount: airdropAmountAddress
     });
